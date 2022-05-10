@@ -1,0 +1,47 @@
+.navbar_container {
+  height: 120px;
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  position: relative;
+  align-items: center;
+  z-index: 3;
+}
+
+.logo {
+  position: relative;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.sub_heading {
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: 5px;
+}
+
+.social_icons {
+  position: absolute;
+  right: 75px;
+  top: 15px;
+  height: calc(100% - 30px);
+  display: flex;
+  align-items: center;
+  width: 132px;
+}
+
+.nav_icon {
+  width: 100%;
+}

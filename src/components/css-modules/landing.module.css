@@ -1,0 +1,6 @@
+.landing_container {
+  height: calc(100vh - 120px);
+  width: 100%;
+  display: flex;
+  background-color: #000;
+}

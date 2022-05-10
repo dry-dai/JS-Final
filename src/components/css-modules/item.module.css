@@ -1,0 +1,48 @@
+.item_container {
+  position: relative;
+}
+
+.video_container {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.main_video {
+  opacity: 1;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+  transition: 0.3s ease-out;
+}
+
+.video_container:hover .main_video {
+  opacity: 0;
+}
+
+.hover_video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.heading_title {
+  font-size: 22px;
+  margin: 20px 0px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.link {
+  color: #5d97f7;
+  transition: 0.4s ease;
+  width: fit-content;
+  text-align: center;
+}
+
+.link:hover {
+  color: #fff;
+}
